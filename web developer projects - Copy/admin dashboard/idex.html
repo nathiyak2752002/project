@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>admin dashboard</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@200&display=swap" rel="stylesheet">
+</head>
+  <body>
+      <!--navbar starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Admin dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#"><i class="fa-solid fa-gauge-high" style="color: #dcdfe5;"></i> Dashboard<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-user"></i> profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-users"></i> users</a>
+              </li>
+           <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i> help</a>
+              </li>
+          </ul>
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-user-plus"></i> Add users</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-plus"></i> Add categories</a>
+              </li>
+          </ul>
+         
+        </div>
+    </nav>
+      <!--navbar ends-->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-2 bg">
+            
+          <ul class="nav slidebar">
+            <li><a href="#">profile</a></li>
+            <li><a href="#">users</a></li>
+            <li><a href="#">add users</a></li>
+            <li><a href="#">settings</a></li>
+            <li><a href="#">site settings</a></li>
+            <li><a href="#">desktop</a></li>
+            
+            </ul>
+          </div>
+
+          <div class="col-sm-9 col-md-10 bn">
+
+            <h1><i class="fa-solid fa-gauge-high" style="color: #dcdfe5;"></i> Dashboard</h1>
+
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="blue-box">
+                  <h3>PAYMENTS :22</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="box-orange">
+                  <h3>USERS :55</h3>
+              </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box-red">
+                  <h3>COURSES :11</h3>
+                </div>
+              </div>
+
+          </div>
+          <br>
+          <h1><i class="fa-solid fa-square-poll-vertical"></i> Detailed results</h1>
+          <table class="table  table-dark">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+              
+                
+            </tbody>
+          </table>
+         
+        </div>
+
+
+      </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

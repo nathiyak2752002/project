@@ -1,0 +1,26 @@
+ul
+{
+    background-color: gray;
+    list-style-type: none;
+    overflow: hidden ;
+    
+}
+ul li{
+    
+    float:left;
+    padding: 15px 25px ;
+    float: right ;
+    background-color:maroon;
+    
+}
+a{
+    text-decoration: none;
+    display: inline-block ; 
+    color: white;
+    
+}
+
+ul li:hover
+{
+background-color: blue ;
+}

@@ -1,0 +1,39 @@
+body
+{
+    background: url("/cake/images/cake.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+div
+{
+    background-color:navy;
+    width: 60%;
+    height: 40%;
+    font-size: medium;
+    margin: 300px auto;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    opacity: 0.7;
+    
+}
+button
+{
+    background-color: aqua;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-shadow: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+i{
+   padding-top: 10px;
+    font-size: 50px;
+}
+h1{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
